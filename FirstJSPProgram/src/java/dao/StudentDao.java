@@ -11,13 +11,13 @@ import model.Student;
 
 public class StudentDao {
     
-    static Student s= new Student();
+//    static Student s= new Student();
 
     static PreparedStatement ps;
     static ResultSet rs;
     static String sql = "";
     
-    public static int saveStudent(){
+    public static int saveStudent(Student s){
     
         int status = 0;
         
