@@ -31,7 +31,7 @@
                 <td>${s.getAddress()}</td>
                 <td>${s.getCell()}</td>
                 <td>
-                    <a href="">Edit</a>
+                    <a href="">Update</a>
                     <a href="deletestudent.jsp?id=${s.getId()}">Delete</a>
                 </td>
             </tr>

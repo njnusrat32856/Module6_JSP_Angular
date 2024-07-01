@@ -97,4 +97,25 @@ public class StudentDao {
         }
         
     }
+    public static void updateStudent(Student s){
+    
+        sql = "update students set name=?,email=?,address=?,cell=?";
+        
+        try {
+            ps = DBUtil.getConnect().prepareStatement(sql);
+            
+            ps.setString(1, s.getName());
+            ps.setString(2, s.getEmail());
+            ps.setString(3, s.getAddress());
+            ps.setString(4, s.getCell());
+            
+            ps.executeUpdate();
+            
+            ps.close();
+            DBUtil.getConnect().close();
+            
+        } catch (ClassNotFoundException | SQLException ex) {
+            Logger.getLogger(StudentDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
