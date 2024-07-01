@@ -15,6 +15,8 @@
         <h1 style="text-align: center">Hello World!</h1>
         <h2>Welcome to JSP</h2>
         
+        <a href="viewallstudent.jsp">View All Student</a>
+        
         <p>
             In Java, JSP stands for Jakarta Server Pages( (JSP; formerly JavaServer Pages)).
             It is a server-side technology which is used for creating web applications.
