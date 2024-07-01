@@ -8,9 +8,9 @@
 int i=StudentDao.saveStudent(s);
 
 if(i>0){
-        response.sendRedirect("success.jsp")
+        response.sendRedirect("success.jsp");
     }
     else{
-        response.sendRedirect("error.jsp")
+        response.sendRedirect("error.jsp");
     }
 %>

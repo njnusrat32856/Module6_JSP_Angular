@@ -10,6 +10,8 @@
         
         <%= new java.util.Date() %>
         
+        <a href="studentaddform.jsp">Add Student</a>
+        
         <h1 style="text-align: center">Hello World!</h1>
         <h2>Welcome to JSP</h2>
         
