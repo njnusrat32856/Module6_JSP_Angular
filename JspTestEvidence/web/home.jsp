@@ -7,9 +7,10 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <h1>Evidence of JSP</h1>
         
         <a href="studentaddfrom.jsp">Add Student Info</a>
-        
-        <h1>Evidence of JSP</h1>
+        <br>
+        <a href="viewalldata.jsp">View All Student Info</a>
     </body>
 </html>
