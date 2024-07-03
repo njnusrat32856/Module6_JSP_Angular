@@ -13,6 +13,6 @@
     </head>
     <body>
         <h1 style="color: green">Data Save Successful!</h1>
-        <%@include file="studentaddform.jsp" %>
+        <%@include file="viewallstudent.jsp" %>
     </body>
 </html>

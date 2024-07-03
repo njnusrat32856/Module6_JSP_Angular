@@ -9,7 +9,7 @@
 
 %>
 
-<table border="1">
+<table border="1" style="width: 70%; font-size: 20px; margin-left: auto; margin-right: auto">
     <thead>
         <tr>
             <th>Id</th>
@@ -29,7 +29,7 @@
                 <td>${l.getAddress()}</td>
                 <td>${l.getCellNo()}</td>
                 <td>
-                    <a href="#">Update</a>
+                    <a href="updatestudentform.jsp?id=${l.getId()}">Update</a>
                     <a href="deletestudent.jsp?id=${l.getId()}">Delete</a>
                 </td>
             </tr>
