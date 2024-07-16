@@ -8,6 +8,7 @@
                 <th>Name</th>
                 <th>City</th>
                 <th>State</th>
+                <th>Photo</th>
                 <th>Unit</th>
                 <th>Action</th>
             </tr>
@@ -17,6 +18,7 @@
                 <td>{{location.name}}</td>
                 <td>{{location.city}}</td>
                 <td>{{location.state}}</td>
+                <td>{{location.photo}}</td>
                 <td>{{location.availableUnits}}</td>
                 <td>
                     <button class="btn btn-warning m-1" (click)="updateLocation(location.id)">Edit</button>
