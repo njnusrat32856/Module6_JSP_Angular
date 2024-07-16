@@ -89,31 +89,11 @@
       "availableUnits": 6,
       "wifi": true,
       "laundry": true
-    },
-    {
-      "id": "3d45",
-      "name": "Nusrat Jahan Naima",
-      "city": "Dhaka",
-      "state": "Dhaka",
-      "photo": "yes",
-      "availableUnits": "4",
-      "wifi": "",
-      "laundry": ""
-    },
-    {
-      "id": "a7a9",
-      "name": "Kamrul Islam",
-      "city": "Australia",
-      "state": "AU",
-      "photo": "no",
-      "availableUnits": "5",
-      "wifi": true,
-      "laundry": false
     }
   ],
   "student": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Nusrat",
       "email": "nusrat@gmail.com",
       "cellNo": "23545",
@@ -127,6 +107,13 @@
         "wifi": false,
         "laundry": true
       }
+    },
+    {
+      "id": "c324",
+      "name": "Raju ",
+      "email": "raju@gmail.com",
+      "cellNo": "545345",
+      "location": "Homesteady Housing"
     }
   ]
 }
